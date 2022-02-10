@@ -1,0 +1,202 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* +++++++++++ BODY +++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+body {
+  background-color: #ffe8d6;
+}
+
+/* +++++++++++++++ Headers ++++++++++++++++++++++++++++++++++++++++++++++ */
+
+h1 {
+  font-size: 50px;
+  color: black;
+  line-height: 50px;
+}
+
+h1 span {
+  color: #b5e48c;
+}
+/* +++++++++++++++ Paragraphs ++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.p1 {
+  font-size: 11px;
+  color: black;
+  letter-spacing: 1px;
+  padding-top: 12px;
+  font-weight: 500;
+}
+
+.p2 {
+  font-size: 13px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: black;
+}
+
+.p3 {
+  letter-spacing: 4px;
+  color: #54585d33;
+  font-weight: 500;
+}
+
+.p4 {
+  line-height: 100%;
+  font-size: 13px;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.p5 {
+  font-weight: 700;
+  color: black;
+}
+
+/* +++++++++++++++ BODY_ MAIN ++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.body-main {
+  width: 700px;
+  height: 800px;
+  background: linear-gradient(#b5e48c, #52b69a);
+  margin: 50px auto;
+  box-shadow: 5px 5px 5px 5px #54585d33;
+}
+
+/* +++++++++++++++ LEFT BLOCK ++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.left-box {
+  width: 35%;
+  float: left;
+  height: 700px;
+}
+
+/* +++++++++++++++ PROFILE  ++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.profile img {
+  width: 100%;
+  border-radius: 50%;
+}
+/* +++++++++++++++ INFO-BOX  ++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.info-box {
+  padding: 0px 40px 0px 35px;
+}
+
+.info-box h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.info-box h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+.info-box h3 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  color: black;
+  font-weight: 800px;
+}
+/* ++++++++++++++++ LEFT COLUMNS  ++++++++++++++++++++++++++++++++++++++++++++++ */
+.Interests-col {
+  width: 25%;
+  float: left;
+  padding-left: 5px;
+}
+
+.Interests-col > i {
+  padding-left: 7px;
+}
+
+.Skills-col {
+  line-height: 55%;
+  width: 50%;
+  float: left;
+}
+
+.clearfloat {
+  clear: both;
+}
+
+/* ++++++++++++++++ RIGHT BLOCK ++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.right-box {
+  width: 65%;
+  float: left;
+  height: 700px;
+  background-color: #fff;
+  margin: 50px 0px;
+  border-radius: 50px 0px 0px 50px;
+  padding: 30px 50px 50px 50px;
+  box-shadow: -7px 2px 15px 2px #54585d33;
+}
+/* ++++++++++++++++ HEADING ++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.heading {
+  font-weight: 500;
+  color: #b5e48c;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+/* ++++++++++++++++ HR ++++++++++++++++++++++++++++++++++++++++++++++ */
+.hr2 {
+  border: none;
+  height: 1px;
+  background: rgb(0, 0, 0);
+  margin-top: 1px;
+}
+
+/* ++++++++++++++++ RIGHT COLUMNS ++++++++++++++++++++++++++++++++++++++++++++++ */
+.R-left-col {
+  width: 35%;
+  float: left;
+}
+.R-right-col {
+  width: 65%;
+  float: left;
+}
+
+.int-col {
+  color: black;
+  font-size: 8px;
+  padding-right: 5px;
+  line-height: 150%;
+  text-align: center;
+}
+/* ++++++++++++++++ SPAN ++++++++++++++++++++++++++++++++++++++++++++++ */
+.span1 {
+  font-size: 13px;
+  color: black;
+}
+
+/* .col3 {
+  text-align: center;
+} */
+
+/* ++++++++++++++++ ICONS ++++++++++++++++++++++++++++++++++++++++++++++ */
+.ico {
+  height: 1px;
+}
